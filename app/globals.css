@@ -1,0 +1,346 @@
+
+
+.about-container {
+  background-color: white;
+  height: 100vh; 
+  width: 100vw; 
+}
+
+.about-header {
+  display: flex;
+  justify-content: center; 
+  color: #1e3a8a; 
+  padding-top: 9rem; 
+}
+
+.about-header h1 {
+  color: #3b82f6; 
+  font-size: 1.5rem;
+  text-align: center;
+  font-style: italic;
+  padding: 0 1rem; }
+
+.image-container {
+  display: flex;
+  justify-content: center; 
+  gap: 1.25rem; 
+}
+
+.image-container img {
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); 
+  height: 18rem; 
+}
+
+.image-container img:nth-child(2) {
+  
+  height: 18rem; 
+}
+
+/* Custom styles for the Footer */
+.footer {
+  background: linear-gradient(to right, #ebf8ff, #c3dafe); 
+  color: #4a5568; 
+  padding: 2.5rem;
+}
+
+.footer .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 2.5rem;
+  margin: 0 auto; 
+}
+
+.footer .social-links {
+  display: flex;
+  gap: 1rem;}
+
+.footer .social-links a {
+  color: #4a5568; 
+  transition: color 0.3s ease; }
+
+.footer .social-links a:hover {
+  color: #3b82f6; 
+}
+
+.footer .social-links a.pinterest:hover {
+  color: #e11d48;
+}
+
+.footer .social-links a.instagram:hover {
+  color: #ec4899; 
+}
+
+.footer .section {
+  margin-bottom: 1.5rem; }
+
+.footer .section h3 {
+  font-weight: bold; 
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+
+.footer .section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer .section ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer .section a {
+  color: #4a5568;
+  transition: color 0.3s ease;
+}
+
+.footer .section a:hover {
+  color: #3b82f6; 
+}
+
+.footer .footer-bottom {
+  margin-top: 2.5rem;
+  border-top: 1px solid #e2e8f0; 
+  padding-top: 1.5rem; 
+  text-align: center; 
+  font-size: 0.875rem;
+  color: #718096; }
+
+/* Custom styles for the Fproduct page */
+.fproduct-container {
+  background-color: white;
+  height: 100vh; 
+  width: 100vw; 
+}
+
+.fproduct-title {
+  text-align: center; 
+  font-size: 2.25rem;
+  padding-top: 1.25rem;
+  padding-right: 11rem;
+  color: #1e3a8a;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.fproduct-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  max-width: 56rem;
+  margin: 0 auto; 
+}
+
+.fproduct-item {
+  display: flex;
+  align-items: center; 
+  color: #1e3a8a;
+}
+
+.fproduct-item p {
+  margin-left: 1rem; }
+
+.fproduct-item img {
+  border-radius: 0.5rem; 
+}
+
+.fproduct-item i {
+  font-style: italic; 
+}
+
+.fproduct-item-small {
+  display: flex;
+  align-items: center;
+  color: #1e3a8a;
+}
+
+.fproduct-item-small img {
+  border-radius: 0.5rem;
+  height: 9.375rem;
+  width: 9.375rem;
+}
+
+.fproduct-item img.large {
+  width: 12.5rem;
+  height: 12.5rem;
+}
+
+/* Home container styles */
+.home-container {
+  min-height: 100vh; 
+  background: linear-gradient(to right, #ebf8ff, #c3d9f7);
+}
+
+/* Header section */
+.header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 1.5rem 2rem; 
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header .logo {
+  font-size: 1.5rem; 
+  font-weight: bold; 
+  color: #2d3748; 
+}
+
+.header nav {
+  display: flex;
+  gap: 1.5rem; 
+}
+
+.header nav a {
+  color: #718096; 
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.header nav a:hover {
+  color: #1a202c; 
+}
+
+/* Main content section */
+.main-content {
+  
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 5rem 2.5rem; 
+  gap: 2rem; 
+}
+
+/* Text section */
+.main-content .text-section {
+  max-width: 32rem; 
+  flex: 1;  
+}
+
+.main-content .text-section h1 {
+  font-size: 3rem; 
+  font-weight: bold; 
+  color: #2d3748; 
+  margin-bottom: 1.5rem; 
+}
+
+.main-content .text-section h1 span {
+  color: #3182ce; 
+}
+
+.main-content .text-section p {
+  color: #4a5568; 
+  font-size: 1.125rem; 
+}
+
+/* Image section */
+.main-content .image-section {
+  position: relative; 
+  width: 100%; 
+  max-width: 28rem; 
+  flex: 1; 
+  margin-top: 2.5rem; 
+}
+
+/* Ensure image covers its container */
+.main-content .image-section img {
+  width: 100%;
+  height: auto; 
+  border-radius: 0.5rem; 
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); 
+}
+
+@media (max-width: 768px) {
+  /* On smaller screens, stack the text and image vertically */
+  .main-content {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  /* Adjust the image section on smaller screens */
+  .main-content .image-section {
+    margin-top: 2rem; 
+    margin-right: 0; 
+  }
+}
+
+/* Custom styles for PremiumProducts component */
+.premium-products-container {
+  background-color: #ebf8ff; 
+  min-height: 100vh; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  padding: 2.5rem; 
+}
+
+.premium-products-card {
+  background-color: #ffffff; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  border-radius: 0.5rem; 
+  padding: 2rem; 
+  max-width: 64rem; 
+  width: 100%;
+}
+
+.premium-products-content {
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.premium-products-content .text-section {
+  margin-bottom: 1.5rem; 
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .premium-products-content {
+    flex-direction: row; 
+  }
+  
+  .premium-products-content .text-section {
+    margin-bottom: 0; 
+    margin-right: 2.5rem; 
+  }
+}
+
+.premium-products-content h1 {
+  font-size: 1.875rem; 
+  font-weight: 600; 
+  color: #2d3748; 
+  margin-bottom: 1rem; 
+}
+
+.premium-products-content p {
+  color: #718096; 
+  margin-bottom: 1rem; 
+}
+
+.premium-products-content h2 {
+  font-weight: 700; 
+  font-size: 1.125rem; 
+  color: #2d3748; 
+  margin-bottom: 0.5rem; 
+}
+
+.premium-products-content ul {
+  display: flex;
+  flex-direction: column; 
+  gap: 0.5rem; 
+  color: #718096; 
+}
+
+.premium-products-content img {
+  width: 100%; 
+  max-width: 20rem; 
+  border-radius: 0.5rem; 
+  object-fit: cover;
+}
+
+.premium-products-content .image-section {
+  flex-shrink: 0; 
+}
